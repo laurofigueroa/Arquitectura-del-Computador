@@ -1,0 +1,12 @@
+Ejercicio 4
+
+El frame activo es de profundidad Ps
+
+Caso Ps < Pt:
+Si quisiera acceder a las variables del frame activo en Pt (que esta en un nivel superior) usaria la tabla display o
+en el caso de lenguaje de pascal el static link, para subir al nivel superior y repetiria el procedimineto t-1 veces 
+hasta llegar al marco de activacion de profundidad Pt.
+
+Caso Ps > Pt:
+Este caso es incierto pues es dificil saber cuando estamos en el frame de Ps si existe un frame de profundidad Pt o 
+simplemente es basura en el stack. Usualmente no es una idea a considerar.
